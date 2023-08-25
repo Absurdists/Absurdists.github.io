@@ -1,6 +1,5 @@
 // poem
 var words=[
-    
     '但愿颐斋寿金石，岁岁年年作生日',
     '从今把定春风笑，且作人间长寿仙',
     '一阳生后逢生日，日渐舒长寿更长',
@@ -65,7 +64,7 @@ window.addEventListener('load',init);
 let textone = document.querySelector('.textone').querySelector('h1');
       let text = document.querySelector('.text').querySelector('h1');
       setTimeout(function(){
-        textone.innerHTML = '祝你生日快乐，祝你日日开心。';
+        textone.innerHTML = '祝你生日快乐，日日开心。';
           textone.style.color = '#E8F9FD';
           textone.style.fontFamily = '楷体'
           text.innerHTML = '';
