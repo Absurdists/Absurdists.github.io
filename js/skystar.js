@@ -1,6 +1,6 @@
 // poem
 var words=[
-    '但愿颐斋寿金石',
+      '但愿颐斋寿金石',
     '岁岁年年作生日',
     '从今把定春风笑',
     '且作人间长寿仙',
@@ -45,6 +45,7 @@ var words=[
     '日日是好日，时时是好时',
     '惟有八月二十七',
     '吉星垂照最希奇'
+
 ];
 function randomNum(min,max){
     var num = (Math.random()*(max-min+1)+min).toFixed(2);
